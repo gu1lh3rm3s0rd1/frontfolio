@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5rem;
+
     @include respond(tab-port) {
       padding: 0 2rem;
     }
@@ -27,6 +28,7 @@
       color: $themeClrPrimary;
     }
   }
+
   &__logo-img-cont {
     width: 5rem;
     height: 5rem;
@@ -41,6 +43,7 @@
       margin-right: 1.2rem;
     }
   }
+
   &__logo-img {
     width: 100%;
     height: 100%;
@@ -48,18 +51,22 @@
     object-position: center;
     display: block;
   }
+
   &__logo-sub {
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
   }
+
   &__links {
     display: flex;
+
     @include respond(phone) {
       display: none;
     }
   }
+
   &__link {
     padding: 2.2rem 3rem;
     display: inline-block;
@@ -73,6 +80,7 @@
     &:hover {
       color: $themeClrPrimary;
     }
+
     @include respond(tab-port) {
       padding: 3rem 1.8rem;
       font-size: 1.5rem;
@@ -89,9 +97,11 @@
       display: block;
     }
   }
+
   &__main-ham-menu {
     width: 100%;
   }
+
   &__main-ham-menu-close {
     width: 100%;
   }
@@ -111,13 +121,14 @@
     &--active {
       visibility: hidden;
       opacity: 0;
-   
+
       @include respond(phone) {
         visibility: visible;
         opacity: 1;
       }
     }
   }
+
   &__sm-menu-link {
     a {
       display: block;
@@ -131,17 +142,19 @@
       text-transform: uppercase;
       letter-spacing: 2px;
       transition: color .3s;
-      
+
       &:hover {
         color: $themeClrPrimary;
       }
     }
+
     &:first-child {
       a {
         border-top: 1px solid #eee;
       }
     }
   }
+
   &__sm-menu-link-last {
     border-bottom: 0;
   }

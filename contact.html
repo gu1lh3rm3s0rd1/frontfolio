@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contato</title>
-  <link rel="stylesheet" href="css/index.css"/>
+  <link rel="stylesheet" href="css/index.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet"/>
- 
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
+
 <body>
   <!-- CABEÇALHO DA PAGINA DO PORJETO, NELE ESTÁ FIXO O MENU DE NAVEGAÇÃO DO PROJETO INTEIRO -->
   <header class="header">
@@ -19,7 +22,7 @@
       <!-- LOGO/PERFIL + NOME NO CABEÇALHO/HEADER -->
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
-          <img src="./assets/jpeg/image.jpeg" alt="" class="header__logo-img"/>
+          <img src="./assets/jpeg/image.jpeg" alt="" class="header__logo-img" />
         </div>
         <span class="header__logo-sub">Guilherme Benjamin Sordi</span>
       </div>
@@ -42,8 +45,8 @@
         </ul>
         <!-- ÍCONES MAIN/MENU MODO MOBILE -->
         <div class="header__main-ham-menu-cont">
-          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu"/>
-          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none"/>
+          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none" />
         </div>
       </div>
     </div>
@@ -71,7 +74,7 @@
       </div>
     </div>
   </header>
-  
+
   <!-- Seção da pagina "CONTATO" -->
   <section id="contact" class="contact sec-pad dynamicBg">
     <div class="main-container">
@@ -83,18 +86,18 @@
       </h2>
       <div class="align__social">
         <div class="main-footer__social-cont">
-            <a href="#">
-              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt=""/>
-            </a>
-            <a href="https://github.com/gu1lh3rm3s0rd1" target="blank">
-              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt=""/>
-            </a>
-            <a href="#">
-              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt=""/>
-            </a>
+          <a href="#">
+            <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="" />
+          </a>
+          <a href="https://github.com/gu1lh3rm3s0rd1" target="blank">
+            <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="" />
+          </a>
+          <a href="#">
+            <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="" />
+          </a>
         </div>
       </div>
-      
+
       <!-- Ícones das redes sociais em formato do botão -->
       <!--div class="align__social">
         <div class="main-footer__social-cont" style="width: 100%;">
@@ -120,22 +123,27 @@
         <form action="https://api.staticforms.xyz/submit" method="post" class="contact__form">
           <div class="contact__form-field">
             <label class="contact__form-label" for="name">Nome</label>
-            <input required placeholder="Nome" type="text" class="contact__form-input" name="name" id="name"/>
+            <input required placeholder="Nome" type="text" class="contact__form-input" name="name" id="name" />
           </div>
           <div class="contact__form-field">
             <label class="contact__form-label" for="email">E-mail</label>
-            <input required placeholder="Seu melhor e-mail" type="text" class="contact__form-input" name="email" id="email"/>
+            <input required placeholder="Seu melhor e-mail" type="text" class="contact__form-input" name="email"
+              id="email" />
           </div>
           <div class="contact__form-field">
             <label class="contact__form-label" for="message">Mensagem</label>
-            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Me ajude a melhorar deixando um feedback sobre meu trabalho!" name="message" id="message"></textarea>
+            <textarea required cols="30" rows="10" class="contact__form-input"
+              placeholder="Me ajude a melhorar deixando um feedback sobre meu trabalho!" name="message"
+              id="message"></textarea>
           </div>
           <input type="hidden" name="accessKey" value="dbc25e1f-173b-4678-a947-789b372c7148">
           <input type="hidden" name="redirectTo" value="https://guilhermebenjamin.netlify.app/index.html">
           <p>
             <button type="submit" class="btn btn--theme contact__btnn" value="submit" onclick="alerta()">
-              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
-                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" fill="currentColor" class="bi bi-send-fill"
+                viewBox="0 0 16 16">
+                <path
+                  d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z" />
               </svg> Enviar
             </button>
           </p>
@@ -154,13 +162,13 @@
           </h2>
           <div class="main-footer__social-cont">
             <a href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1" target="_blank">
-              <img src="./assets/png/linkedin-ico.png" class="main-footer__icon" alt=""/>
+              <img src="./assets/png/linkedin-ico.png" class="main-footer__icon" alt="" />
             </a>
             <a href="https://github.com/gu1lh3rm3s0rd1" target="_blank">
-              <img src="./assets/png/github-ico.png" class="main-footer__icon" alt=""/>
+              <img src="./assets/png/github-ico.png" class="main-footer__icon" alt="" />
             </a>
             <a href="https://www.instagram.com/guilhermesordi_/" target="_blank">
-              <img src="./assets/png/insta-ico.png" class="main-footer__icon main-footer__icon--mr-none" alt=""/>
+              <img src="./assets/png/insta-ico.png" class="main-footer__icon main-footer__icon--mr-none" alt="" />
             </a>
           </div>
         </div>
@@ -176,18 +184,25 @@
 
   <!-- LIB´S JAVA -->
   <script src="js/index.js"></script>
-  
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 
   <!-- Mensagem de confirmção de envio de e-mail -->
   <script>
-    function alerta(){
+    function alerta() {
       window.alert(
         "E-mail enviado com sucesso. Muito obrigado pelo seu Feedback!! ;)"
-        );
+      );
     }
   </script>
 </body>
+
 </html>

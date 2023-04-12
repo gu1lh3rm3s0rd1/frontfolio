@@ -3,6 +3,7 @@
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
+
   @include respond(phone) {
     font-size: 4.5rem;
   }
@@ -11,6 +12,7 @@
 .heading-sec {
   &__mb-bg {
     margin-bottom: 11rem;
+
     @include respond(tab-port) {
       margin-bottom: 8rem;
     }
@@ -18,6 +20,7 @@
 
   &__mb-med {
     margin-bottom: 9rem;
+
     @include respond(tab-port) {
       margin-bottom: 8rem;
     }
@@ -32,13 +35,16 @@
     text-align: center;
     margin-bottom: 3.5rem;
     position: relative;
+
     &--lt {
       color: #fff;
+
       &::after {
         content: '';
         background: #fff !important;
       }
     }
+
     &::after {
       content: '';
       position: absolute;
@@ -107,6 +113,7 @@
     padding: 1.5rem 8rem;
     font-size: 2rem;
   }
+
   &--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem;
@@ -116,6 +123,7 @@
     background: $themeClrPrimary;
     color: #fff;
   }
+
   &--theme-inv {
     color: $themeClrPrimary;
     background: #fff;
@@ -127,6 +135,7 @@
 
 .sec-pad {
   padding: 12rem 0;
+
   @include respond(tab-port) {
     padding: 8rem 0;
   }

@@ -1,11 +1,6 @@
 .project-cs-hero {
   color: #fff;
-    background: linear-gradient(
-      to right,
-      rgba($themeClrPrimary, 0.8),
-      rgba($themeClrPrimary, 0.8)
-    ),
-    url(../../assets/svg/endless-constellation.svg);
+  background: linear-gradient(to right, rgba($themeClrPrimary, 0.8), rgba($themeClrPrimary, 0.8)), url(../../assets/svg/endless-constellation.svg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -33,6 +28,7 @@
     margin: 3rem auto 0 auto;
     max-width: 80rem;
   }
+
   &__cta {
     margin-top: 5rem;
     text-align: center;
@@ -49,6 +45,7 @@
       font-weight: 700;
       font-size: 2.8rem;
       margin-bottom: 3rem;
+
       @include respond(phone) {
         font-size: 2.4rem;
       }
@@ -63,11 +60,13 @@
   &__showcase-img {
     width: 100%;
   }
+
   &__content-main {
     width: 100%;
     max-width: 70rem;
     margin: auto;
   }
+
   &__desc {
     margin: 0 0 7rem 0;
 
@@ -78,6 +77,7 @@
       margin-bottom: 2rem;
     }
   }
+
   &__tools-used {
     margin: 0 0 7rem 0;
 
@@ -85,6 +85,7 @@
       display: flex;
       flex-wrap: wrap;
     }
+
     &-item {
       padding: 1rem 2rem;
       margin-bottom: 1.5rem;
@@ -96,18 +97,23 @@
       color: #777;
     }
   }
+
   &__links {
     margin: 0 0;
+
     &-btn {
       margin-right: 2rem;
+
       @include respond(phone) {
         margin-right: 0;
         width: 70%;
         margin-bottom: 2rem;
         text-align: center;
       }
+
       &:last-child {
         margin: 0;
+
         @include respond(phone) {
           margin: 0;
         }
