@@ -582,6 +582,8 @@ textarea {
   background-blend-mode: color;
   width: 100%;
   height: fit-content;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 .content {
@@ -666,7 +668,7 @@ textarea {
 
   .projects__row-img-cont {
     overflow: hidden;
-    width: 25%;
+    width: 90%;
   }
 }
 
