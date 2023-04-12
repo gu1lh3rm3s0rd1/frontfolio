@@ -584,17 +584,6 @@ textarea {
   height: fit-content;
 }
 
-@media (max-width: 25rem){
-  .show__case {
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: color;
-    width: 30%;
-    height: fit-content;
-  }
-}
-
 .content {
   display: inline-block;
 }
@@ -677,7 +666,7 @@ textarea {
 
   .projects__row-img-cont {
     overflow: hidden;
-    width: 95%;
+    width: 25%;
   }
 }
 
