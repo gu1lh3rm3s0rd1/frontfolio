@@ -581,7 +581,6 @@ textarea {
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: color;
   width: 100%;
-  height: fit-content;
   object-fit: cover;
   object-position: bottom;
 }
@@ -668,7 +667,7 @@ textarea {
 
   .projects__row-img-cont {
     overflow: hidden;
-    width: 40%;
+    width: 100%;
   }
 
   .show__case {
@@ -676,8 +675,7 @@ textarea {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: color;
-    width: 45%;
-    height: fit-content;
+    width: 100%;
     object-fit: cover;
     object-position: bottom;
   }
