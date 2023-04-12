@@ -670,6 +670,17 @@ textarea {
     overflow: hidden;
     width: 40%;
   }
+
+  .show__case {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+    width: 90%;
+    height: fit-content;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
 
 .projects__row-content-title {
