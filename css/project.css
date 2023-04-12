@@ -1,0 +1,131 @@
+.project-cs-hero {
+  color: #fff;
+  background: linear-gradient(to right, rgba(0, 185, 129, .8), rgba(0, 98, 185, .8)) center/cover, url(../../assets/svg/endless-constellation.svg) center/cover;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-cs-hero {
+    height: unset;
+    min-height: unset;
+  }
+}
+
+.project-cs-hero__content {
+  padding: 25rem 0 17rem 0;
+  max-width: 90rem;
+  width: 92%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-cs-hero__content {
+    padding: 19rem 0 13rem 0;
+    margin: auto;
+    position: static;
+    transform: translate(0, 0);
+  }
+}
+
+.project-cs-hero__info {
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
+}
+
+.project-cs-hero__cta {
+  margin-top: 15rem;
+  text-align: center;
+}
+
+.project-details__content {
+  padding: 8rem 0;
+  max-width: 90rem;
+  margin: auto;
+}
+
+.project-details__content-title {
+  font-weight: 700;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-details__content-title {
+    font-size: 2.4rem;
+  }
+}
+
+.project-details__showcase-img-cont {
+  width: 100%;
+  margin-bottom: 6rem;
+}
+
+.project-details__showcase-img {
+  width: 100%;
+}
+
+.project-details__content-main {
+  width: 100%;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.project-details__desc {
+  margin: 0 0 7rem 0;
+}
+
+.project-details__desc-para {
+  font-size: 1.8rem;
+  line-height: 1.7;
+  color: grey;
+  margin-bottom: 2rem;
+}
+
+.project-details__tools-used {
+  margin: 0 0 7rem 0;
+}
+
+.project-details__tools-used-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-details__tools-used-item {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1.6rem;
+  background: rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  font-weight: 600;
+  color: #777;
+}
+
+.project-details__links {
+  margin: 0 0;
+}
+
+.project-details__links-btn {
+  margin-right: 2rem;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-details__links-btn {
+    margin-right: 0;
+    width: 50%;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
+.project-details__links-btn:last-child {
+  margin: 0;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .project-details__links-btn:last-child {
+    margin: 0;
+  }
+}

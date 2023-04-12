@@ -66,7 +66,7 @@
           </li>
 
           <li class="header__sm-menu-link">
-            <a href="./contact.html" class="header__link"> Contato </a>
+            <a href="./contact.html" class="header__link" target="_blank"> Contato </a>
           </li>
         </ul>
       </div>
@@ -88,17 +88,17 @@
     </div>
     <div class="home-hero__socials">
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link">
+        <a href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1" class="home-hero__social-icon-link" target="_blank">
           <img src="./assets/png/linkedin-ico.png" alt="" class="home-hero__social-icon"/>
         </a>
       </div>
       <div class="home-hero__social">
-        <a href="https://github.com/gu1lh3rm3s0rd1" target="blank" class="home-hero__social-icon-link">
+        <a href="https://github.com/gu1lh3rm3s0rd1" target="blank" class="home-hero__social-icon-link" target="_blank">
           <img src="./assets/png/github-ico.png" alt="" class="home-hero__social-icon"/>
         </a>
       </div>
       <div class="home-hero__social">
-        <a href="#" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+        <a href="https://www.instagram.com/guilhermesordi_/" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
           <img src="./assets/png/insta-ico.png" alt="" class="home-hero__social-icon"/>
         </a>
       </div>
@@ -125,7 +125,8 @@
               de trabalho como <strong>Programador de Sistemas</strong> Solucionando problemas, desenvolvendo paginas web e também fazendo análise de dados.
               Sou tranquilo quanto a trabalho em equipe, aprendo rápido e busco sempre o máximo de efiência para um bom desempenho no trabalho.
               Estou aberto a <strong>novas chances</strong> onde possa contribuir, aprender e crescer profissionalmente. Se você tiver uma oportunidade
-              que corresponda às minhas habilidades e experiências, entre em <strong>contato</strong> comigo <strong><a href="./contact.html" target="_blank">aqui</a></strong>.
+              que corresponda às minhas habilidades e experiências, entre em <strong>contato</strong> comigo clicando <strong>
+                <a href="./contact.html" target="_blank" style="color: rgba(0, 154, 185, 0.981);">aqui</a></strong>.
             </p>
           </div>
           <!--a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a-->
@@ -171,39 +172,54 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="projects__row">
-                  <h5 class="projects__row-content-title">Projeto 1</h5>
-                  <p class="projects__row-content-desc" style="color: black;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    facilis tempora, explicabo quae quod deserunt eius sapiente
-                    praesentium.
-                  </p>
-                  <a href="./project-3.html" class="btn btn--med btn--theme" target="">Ver mais</a>
+                  <div class="projects__row-img-cont">
+                    <img src="assets/png/spotfywallpaper.PNG" alt="" class="show__case">
+                  </div>
+                  <div class="content">
+                    <h5 class="projects__row-content-title">Clone do Spotfy</h5>
+                    <!--p class="projects__row-content-desc" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                      facilis tempora, explicabo quae quod deserunt eius sapiente
+                      praesentium.
+                    </p-->
+                    <a href="./project1.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
+                  </div>
+                </div>
+            </div>
+    
+            <div class="carousel-item">
+                <div class="projects__row">
+                  <div class="projects__row-img-cont">
+                    <img src="assets/png/list.PNG" alt="" class="show__case">
+                  </div>
+                  <div class="content">
+                    <h5 class="projects__row-content-title">Lista de Tarefas</h5>
+                    <!--p class="projects__row-content-desc" style="color: black;">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                      facilis tempora, explicabo quae quod deserunt eius sapiente
+                      praesentium.
+                    </p-->
+                    <a href="./project2.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
+                  </div>
                 </div>
             </div>
     
             <div class="carousel-item">
               <div class="projects__row">
-                <h5 class="projects__row-content-title">Projeto 2</h5>
-                  <p class="projects__row-content-desc" style="color: black;">
+                <div class="projects__row-img-cont">
+                  <img src="assets/png/" alt="" class="show__case">
+                </div>
+                <div class="content">
+                  <h5 class="projects__row-content-title">Projeto 3</h5>
+                  <!--p class="projects__row-content-desc" style="color: black;">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                     facilis tempora, explicabo quae quod deserunt eius sapiente
                     praesentium.
-                  </p>
-                  <a href="./project-3.html" class="btn btn--med btn--theme" target="">Ver mais</a>
+                  </p-->
+                  <a href="./project2.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
                 </div>
-            </div>
-    
-            <div class="carousel-item">
-              <div class="projects__row">
-                <h5 class="projects__row-content-title">Projeto 3</h5>
-                  <p class="projects__row-content-desc" style="color: black;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    facilis tempora, explicabo quae quod deserunt eius sapiente
-                    praesentium.
-                  </p>
-                  <a href="./project-3.html" class="btn btn--med btn--theme" target="">Ver mais</a>
-                </div>
-            </div>
+              </div>
+          </div>
           </div>
           
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -219,9 +235,8 @@
       </div>
 
       <div class="projects__more-info">
-        <!--a href="" class="btn btn--med btn--theme" target="">Ver Todos</a-->
         <span class="heading-sec__sub">
-         Vejas mais dos meus trabalhos <strong><a href="https://github.com/gu1lh3rm3s0rd1" target="blank">aqui</a></strong>.
+         Vejas mais dos meus trabalhos <strong><a href="https://github.com/gu1lh3rm3s0rd1" target="_blank" style="color: rgba(0, 154, 185, 0.981);">aqui</a></strong>.
         </span>
       </div>
     </div>
@@ -236,14 +251,14 @@
             <span>Redes Sociais</span>
           </h2>
           <div class="main-footer__social-cont">
-            <a href="#">
-              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt=""/>
+            <a href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1" target="_blank">
+              <img src="./assets/png/linkedin-ico.png" class="main-footer__icon" alt=""/>
             </a>
-            <a href="https://github.com/gu1lh3rm3s0rd1">
-              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt=""/>
+            <a href="https://github.com/gu1lh3rm3s0rd1" target="_blank">
+              <img src="./assets/png/github-ico.png" class="main-footer__icon" alt=""/>
             </a>
-            <a href="#">
-              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt=""/>
+            <a href="https://www.instagram.com/guilhermesordi_/" target="_blank">
+              <img src="./assets/png/insta-ico.png" class="main-footer__icon main-footer__icon--mr-none" alt=""/>
             </a>
           </div>
         </div>
