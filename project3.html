@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="assets/png/pasta-portfolio.png" />
+  <title>Portifólio | Guilherme Benjamin Sordi</title>
+  <link rel="stylesheet" href="css/project.css" />
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- CABEÇALHO DA PAGINA DO PORJETO, NELE ESTÁ FIXO O MENU DE NAVEGAÇÃO DO PROJETO INTEIRO -->
+  <header class="header">
+    <div class="header__content">
+      <!-- LOGO/PERFIL + NOME NO CABEÇALHO/HEADER -->
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/image.jpeg" alt="" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Guilherme Benjamin Sordi</span>
+      </div>
+
+      <!-- MAIN/MENU TEL NORMAL/MONITOR -->
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link"> Sobre </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link"> Projetos </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./contact.html" class="header__link" target="_blank"> Contato </a>
+          </li>
+        </ul>
+        <!-- ÍCONES MAIN/MENU MODO MOBILE -->
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN/MENU MODO MOBILE -->
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> Sobre </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projetos </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./contact.html" class="header__link" target="_blank"> Contato </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- INÍCIO -->
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Calculadora com PHP</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Esta página contém o projeto de uma simples Calculadora, que inclui a visão geral do projeto e as ferramentas
+          usadas.
+        </p>
+        <p class="text-primary">
+          Espero que goste!!! :))
+        </p>
+      </div>
+      <div class="project-cs-hero__cta">
+        <a href="https://github.com/gu1lh3rm3s0rd1/PHP-calculadora" class="btn btn--med btn--theme" target="_blank">Veja
+          o
+          código aqui</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESCRIÇÃO DO PROJETO -->
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img src="./assets/png/calc.PNG" alt="Project Image" class="project-details__showcase-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Visão Geral</h3>
+            <p class="project-details__desc-para">
+              Projeto simples de uma calculadora feita com HTML, CSS e PHP. Usei HTML para criar um pequeno formulário
+              para simular nossa calculadora.
+              Com PHP usei estruturas de decisão para identificar situações de soma, subtração, multiplicação ou divisão
+              e assim realizar nossos cálculos.
+            </p>
+            <p class="project-details__desc-para">
+              Esta aplicação não está publicada ainda!! Por isso, não há link do produto oficial!!
+            </p>
+            <p class="project-details__desc-para">
+              Sinta-se à vontade para conferir o repositório desse Projeto e realizar o download para testes.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">Linguagens</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">PHP</div>
+            </div>
+          </div>
+          <div class="project-details__links">
+            <h3 class="project-details__content-title">Veja Mais</h3>
+            <a href="https://github.com/gu1lh3rm3s0rd1/PHP-calculadora" class="btn btn--med btn--theme"
+              target="_blank">Link do Código</a>
+            <a href="./index.html#projects" class="btn btn--med btn--theme-inv project-details__links-btn"
+              target="">Voltar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ DA PAGINA DO PROJETO, CONSIDERAÇÕES FINAIS E MENU DAS REDES SOCIAIS -->
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Redes Sociais</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1" target="_blank">
+              <img src="./assets/png/linkedin-ico.png" class="main-footer__icon" alt="" />
+            </a>
+            <a href="https://github.com/gu1lh3rm3s0rd1/Pojeto-Spotfy" target="_blank">
+              <img src="./assets/png/github-ico.png" class="main-footer__icon" alt="" />
+            </a>
+            <a href="https://www.instagram.com/guilhermesordi_/" target="_blank">
+              <img src="./assets/png/insta-ico.png" class="main-footer__icon main-footer__icon--mr-none" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Guilherme Benjamin Sordi</h4>
+          <p class="main-footer__short-desc">
+            "O único lugar onde o sucesso vem antes do trabalho é no dicionário." - Albert Einstein
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIB´S JAVA -->
+  <script src="js/index.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
