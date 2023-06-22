@@ -1,6 +1,11 @@
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba($themeClrPrimary, 0.8), rgba($themeClrPrimary, 0.8)), url(../../assets/svg/endless-constellation.svg);
+  background: linear-gradient(
+      to right,
+      rgba($themeClrPrimary, 0.8),
+      rgba($themeClrPrimary, 0.8)
+    ),
+    url(../../assets/svg/endless-constellation.svg);
   background-size: cover;
   background-position: center;
   position: relative;

@@ -40,13 +40,13 @@
       color: #fff;
 
       &::after {
-        content: '';
+        content: "";
         background: #fff !important;
       }
     }
 
     &::after {
-      content: '';
+      content: "";
       position: absolute;
       top: calc(100% + 1.5rem);
       height: 5px;
@@ -103,7 +103,7 @@
   font-weight: 700;
   border-radius: $commonBorderRadius;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-  transition: transform .3s;
+  transition: transform 0.3s;
 
   &:hover {
     transform: translateY(-3px);
@@ -152,7 +152,6 @@
     font-size: 2rem;
   }
 }
-
 
 .d-none {
   display: none;

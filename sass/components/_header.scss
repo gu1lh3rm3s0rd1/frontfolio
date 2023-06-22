@@ -22,7 +22,7 @@
     align-items: center;
     cursor: pointer;
     color: #333;
-    transition: color .3s;
+    transition: color 0.3s;
 
     &:hover {
       color: $themeClrPrimary;
@@ -75,7 +75,7 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s;
+    transition: color 0.3s;
 
     &:hover {
       color: $themeClrPrimary;
@@ -113,7 +113,7 @@
     top: 100%;
     visibility: hidden;
     opacity: 0;
-    transition: all .3s;
+    transition: all 0.3s;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.1);
@@ -141,7 +141,7 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 2px;
-      transition: color .3s;
+      transition: color 0.3s;
 
       &:hover {
         color: $themeClrPrimary;
