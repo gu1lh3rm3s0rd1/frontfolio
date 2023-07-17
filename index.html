@@ -1,457 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="assets/png/pasta-portfolio.png" />
-    <title>Portifólio | Guilherme Benjamin Sordi</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/carousel.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
-      rel="stylesheet"
-    />
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/png/pasta-portfolio.png" />
+  <title>Portifólio | Guilherme Benjamin Sordi</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/carousel.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
 
-  <body>
-    <!-- CABEÇALHO DA PAGINA DO PORJETO, NELE ESTÁ FIXO O MENU DE NAVEGAÇÃO DO PROJETO INTEIRO -->
-    <header class="header">
-      <div class="header__content">
-        <!-- LOGO/PERFIL + NOME NO CABEÇALHO/HEADER -->
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/jpeg/image.jpeg"
-              alt=""
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Guilherme Benjamin Sordi</span>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/jpeg/image.jpeg" alt="" class="header__logo-img" />
         </div>
-
-        <!-- MAIN/MENU TEL NORMAL/MONITOR -->
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link"> Sobre </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projetos
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./contact.html" class="header__link" target="_blank">
-                Contato
-              </a>
-            </li>
-          </ul>
-          <!-- ÍCONES MAIN/MENU MODO MOBILE -->
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt=""
-              class="header__main-ham-menu"
-            />
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt=""
-              class="header__main-ham-menu-close d-none"
-            />
-          </div>
-        </div>
+        <span class="header__logo-sub">Guilherme Benjamin Sordi</span>
       </div>
 
-      <!-- MAIN/MENU MODO MOBILE -->
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> Sobre </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projetos </a>
-            </li>
-
-            <li class="header__sm-menu-link">
-              <a href="./contact.html" class="header__link" target="_blank">
-                Contato
-              </a>
-            </li>
-          </ul>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link"> Sobre </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projetos
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./contact.html" class="header__link" target="_blank">
+              Contato
+            </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none" />
         </div>
       </div>
-    </header>
+    </div>
 
-    <!-- Seção da pagina "HOME/INICIO" -->
-    <section class="home-hero">
-      <div class="home-hero__content">
-        <h1 class="heading-primary">OLá, sou Guilherme</h1>
-        <div class="home-hero__info">
-          <p class="text-primary">
-            Estudante de Sistemas de Informação com paixão por Desenvolvimento
-            Web e esse é o meu Portifólio.
-          </p>
-        </div>
-        <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg"> Projetos </a>
-        </div>
+    <!-- MAIN/MENU MODO MOBILE -->
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> Sobre </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projetos </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./contact.html" class="header__link" target="_blank">
+              Contato
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a
-            href="https://www.linkedin.com/in/guilherme-sordi-33ab06233/"
-            class="home-hero__social-icon-link"
-            target="_blank"
-          >
-            <img
-              src="./assets/png/linkedin-ico.png"
-              alt=""
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://github.com/gu1lh3rm3s0rd1?tab=repositories"
-            target="blank"
-            class="home-hero__social-icon-link"
-            target="_blank"
-          >
-            <img
-              src="./assets/png/github-ico.png"
-              alt=""
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="https://www.instagram.com/guilhermesordi_/"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
-            target="_blank"
-          >
-            <img
-              src="./assets/png/insta-ico.png"
-              alt=""
-              class="home-hero__social-icon"
-            />
-          </a>
-        </div>
+    </div>
+  </header>
+
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">OLá, sou Guilherme</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Estudante de Sistemas de Informação com paixão por Desenvolvimento
+          Web e esse é o meu Portifólio.
+        </p>
       </div>
-      <div class="home-hero__mouse-scroll-cont">
-        <div class="mouse"></div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg"> Projetos </a>
       </div>
-    </section>
-
-    <!-- Seção da pagina "SOBRE MIM" -->
-    <section id="about" class="about sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main">Sobre mim</span>
-          <span class="heading-sec__sub">
-            Aqui você encontrará mais informações sobre mim, o que faço e minhas
-            habilidades atuais principalmente em termos de programação e
-            tecnologia.
-          </span>
-        </h2>
-        <div class="about__content">
-          <div class="about__content-main">
-            <h3 class="about__content-title">Informações</h3>
-            <div class="about__content-details">
-              <p class="about__content-details-para">
-                Sou estudante de Sistemas de Informação pela
-                <strong>Instituição Estácio</strong>, hoje atuo no mercado de
-                trabalho como
-                <strong>Programador de Sistemas</strong> solucionando problemas,
-                desenvolvendo paginas web e também fazendo análise de dados. Sou
-                tranquilo quanto a trabalho em equipe, aprendo rápido e busco
-                sempre o máximo de efiência para um bom desempenho no trabalho.
-                Estou aberto a <strong>novas chances</strong> onde possa
-                contribuir, aprender e crescer profissionalmente. Se você tiver
-                uma oportunidade que corresponda às minhas habilidades e
-                experiências, entre em <strong>contato</strong> comigo clicando
-                <strong>
-                  <a
-                    href="./contact.html"
-                    target="_blank"
-                    style="color: rgba(0, 154, 185, 0.981)"
-                    >aqui</a
-                  ></strong
-                >.
-              </p>
-            </div>
-            <!--a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a-->
-          </div>
-          <div class="about__content-skills">
-            <h3 class="about__content-title">Minhas Habilidades</h3>
-            <div class="skills">
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">PHP</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">GitHub</div>
-              <div class="skills__skill">Power BI</div>
-              <div class="skills__skill">PostgreSQL</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">Oracle SQL Developer</div>
-              <div class="skills__skill">Pentaho</div>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://www.linkedin.com/in/guilherme-sordi-33ab06233/" class="home-hero__social-icon-link"
+          target="_blank">
+          <img src="./assets/png/linkedin-ico.png" alt="" class="home-hero__social-icon" />
+        </a>
       </div>
-    </section>
-
-    <!-- Seção da pagina "PROJETOS" -->
-    <section id="projects" class="projects sec-pad">
-      <div class="main-container">
-        <h2 class="heading heading-sec heading-sec__mb-bg">
-          <span class="heading-sec__main">Projetos</span>
-          <span class="heading-sec__sub">
-            Aqui você encontrará alguns dos projetos pessoais que criei com cada
-            um contendo seu próprio conteúdo e estudo de caso.
-          </span>
-        </h2>
-
-        <div class="projects__content">
-          <div
-            id="carouselExampleAutoplaying"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-
-            <!-- DIV DO CAROUSEL -->
-            <div class="carousel-inner">
-              <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
-              <div class="carousel-item active">
-                <!-- DIV DO PROJETO/CONTEÚDO -->
-                <div class="projects__row">
-                  <div class="projects__row-img-cont">
-                    <img
-                      src="assets/png/spotfywallpaper.PNG"
-                      alt=""
-                      class="show__case"
-                    />
-                  </div>
-                  <div class="content">
-                    <h5 class="projects__row-content-title">
-                      Clone do Spotify
-                    </h5>
-                    <!--p class="projects__row-content-desc" style="color: black;">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      facilis tempora, explicabo quae quod deserunt eius sapiente
-                      praesentium.
-                    </p-->
-                    <a
-                      href="./project1.html"
-                      class="btn btn--medd btn--theme"
-                      target=""
-                      >Ver mais</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
-              <div class="carousel-item">
-                <!-- DIV DO PROJETO/CONTEÚDO -->
-                <div class="projects__row">
-                  <div class="projects__row-img-cont">
-                    <img src="assets/png/list.PNG" alt="" class="show__case" />
-                  </div>
-                  <div class="content">
-                    <h5 class="projects__row-content-title">
-                      Lista de Tarefas
-                    </h5>
-                    <!--p class="projects__row-content-desc" style="color: black;">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                      facilis tempora, explicabo quae quod deserunt eius sapiente
-                      praesentium.
-                    </p-->
-                    <a
-                      href="./project2.html"
-                      class="btn btn--medd btn--theme"
-                      target=""
-                      >Ver mais</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
-              <div class="carousel-item">
-                <!-- DIV DO PROJETO/CONTEÚDO -->
-                <div class="projects__row">
-                  <div class="projects__row-img-cont">
-                    <img src="assets/png/calc.PNG" alt="" class="show__case" />
-                  </div>
-                  <div class="content">
-                    <h5 class="projects__row-content-title">Calculadora</h5>
-                    <!--p class="projects__row-content-desc" style="color: black;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    facilis tempora, explicabo quae quod deserunt eius sapiente
-                    praesentium.
-                  </p-->
-                    <a
-                      href="./project3.html"
-                      class="btn btn--medd btn--theme"
-                      target=""
-                      >Ver mais</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-                style="color: black"
-              ></span>
-              <span class="visually-hidden" style="color: black">Previous</span>
-            </button>
-
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-
-        <div class="projects__more-info">
-          <span class="heading-sec__sub">
-            Vejas mais dos meus trabalhos
-            <strong
-              ><a
-                href="https://github.com/gu1lh3rm3s0rd1?tab=repositories"
-                target="_blank"
-                style="color: rgba(0, 154, 185, 0.981)"
-                >aqui</a
-              ></strong
-            >.
-          </span>
-        </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/gu1lh3rm3s0rd1?tab=repositories" target="blank" class="home-hero__social-icon-link"
+          target="_blank">
+          <img src="./assets/png/github-ico.png" alt="" class="home-hero__social-icon" />
+        </a>
       </div>
-    </section>
+      <div class="home-hero__social">
+        <a href="https://www.instagram.com/guilhermesordi_/"
+          class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
+          <img src="./assets/png/insta-ico.png" alt="" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
 
-    <!-- RODAPÉ DA PAGINA DO PROJETO, CONSIDERAÇÕES FINAIS E MENU DAS REDES SOCIAIS -->
-    <footer class="main-footer">
-      <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Redes Sociais</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a
-                href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1"
-                target="_blank"
-              >
-                <img
-                  src="./assets/png/linkedin-ico.png"
-                  class="main-footer__icon"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://github.com/gu1lh3rm3s0rd1?tab=repositories"
-                target="_blank"
-              >
-                <img
-                  src="./assets/png/github-ico.png"
-                  class="main-footer__icon"
-                  alt=""
-                />
-              </a>
-              <a
-                href="https://www.instagram.com/guilhermesordi_/"
-                target="_blank"
-              >
-                <img
-                  src="./assets/png/insta-ico.png"
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  alt=""
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Guilherme Benjamin Sordi</h4>
-            <p class="main-footer__short-desc">
-              "O único lugar onde o sucesso vem antes do trabalho é no
-              dicionário." - Albert Einstein
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Sobre mim</span>
+        <span class="heading-sec__sub">
+          Aqui você encontrará mais informações sobre mim, o que faço e minhas
+          habilidades atuais principalmente em termos de programação e
+          tecnologia.
+        </span>
+      </h2>
+
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Informações</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Sou estudante de Sistemas de Informação pela
+              <strong>Instituição Estácio</strong>, hoje atuo no mercado de
+              trabalho como
+              <strong>Programador de Sistemas</strong> solucionando problemas,
+              desenvolvendo paginas web e também fazendo análise de dados. Sou
+              tranquilo quanto a trabalho em equipe, aprendo rápido e busco
+              sempre o máximo de efiência para um bom desempenho no trabalho.
+              Estou aberto a <strong>novas chances</strong> onde possa
+              contribuir, aprender e crescer profissionalmente. Se você tiver
+              uma oportunidade que corresponda às minhas habilidades e
+              experiências, entre em <strong>contato</strong> comigo clicando
+              <strong>
+                <a href="./contact.html" target="_blank" style="color: rgba(0, 154, 185, 0.981)">aqui</a></strong>.
             </p>
           </div>
         </div>
+
+        <div class="about__content-skills">
+          <h3 class="about__content-title">Minhas Habilidades</h3>
+          <div class="skills">
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">PHP</div>
+            <div class="skills__skill">PostgreSQL</div>
+            <div class="skills__skill">MySQL</div>
+            <div class="skills__skill">Oracle SQL Developer</div>
+            <div class="skills__skill">Pentaho</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">GitHub</div>
+            <div class="skills__skill">Power BI</div>
+          </div>
+        </div>
       </div>
-    </footer>
+    </div>
+  </section>
 
-    <!-- LIB´S JAVA -->
-    <script src="js/index.js"></script>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projetos</span>
+        <span class="heading-sec__sub">
+          Aqui você encontrará alguns dos projetos pessoais que criei com cada
+          um contendo seu próprio conteúdo e estudo de caso.
+        </span>
+      </h2>
 
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <div class="projects__content">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+
+          <!-- DIV DO CAROUSEL -->
+          <div class="carousel-inner">
+            <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
+            <div class="carousel-item active">
+              <!-- DIV DO PROJETO/CONTEÚDO -->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img src="assets/png/spotfywallpaper.PNG" alt="" class="show__case" />
+                </div>
+                <div class="content">
+                  <h5 class="projects__row-content-title">
+                    Clone do Spotify
+                  </h5>
+                  <a href="./project1.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
+            <div class="carousel-item">
+              <!-- DIV DO PROJETO/CONTEÚDO -->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img src="assets/png/ecommerce.PNG" alt="" class="show__case" />
+                </div>
+                <div class="content">
+                  <h5 class="projects__row-content-title">
+                    ClickStore
+                  </h5>
+                  <a href="./project2.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- DIV DO SLIDE DENTRO DO CAROUSEL -->
+            <div class="carousel-item">
+              <!-- DIV DO PROJETO/CONTEÚDO -->
+              <div class="projects__row">
+                <div class="projects__row-img-cont">
+                  <img src="assets/png/carros.PNG" alt="" class="show__case" />
+                </div>
+                <div class="content">
+                  <h5 class="projects__row-content-title">
+                    CarZone
+                  </h5>
+                  <a href="./project3.html" class="btn btn--medd btn--theme" target="">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="color: black"></span>
+            <span class="visually-hidden" style="color: black">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="projects__more-info">
+        <span class="heading-sec__sub">
+          Vejas mais dos meus trabalhos
+          <strong><a href="https://github.com/gu1lh3rm3s0rd1?tab=repositories" target="_blank"
+              style="color: rgba(0, 154, 185, 0.981)">aqui</a></strong>.
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Redes Sociais</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a href="https://www.linkedin.com/mwlite/in/guilherme-benjamim-sordi-ba04551a1" target="_blank">
+              <img src="./assets/png/linkedin-ico.png" class="main-footer__icon" alt="" />
+            </a>
+            <a href="https://github.com/gu1lh3rm3s0rd1?tab=repositories" target="_blank">
+              <img src="./assets/png/github-ico.png" class="main-footer__icon" alt="" />
+            </a>
+            <a href="https://www.instagram.com/guilhermesordi_/" target="_blank">
+              <img src="./assets/png/insta-ico.png" class="main-footer__icon main-footer__icon--mr-none" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Guilherme Benjamin Sordi</h4>
+          <p class="main-footer__short-desc">
+            "O único lugar onde o sucesso vem antes do trabalho é no
+            dicionário." - Albert Einstein
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
