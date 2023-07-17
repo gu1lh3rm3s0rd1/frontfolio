@@ -30,9 +30,9 @@ Confira mais dos meus trabalhos acessando o meu repositório do GitHub.
 
 - Linguagens de Programação: JavaScript, HTML, CSS, etc.
 - Frameworks e Bibliotecas:
-  jQuery: Uma biblioteca JavaScript que simplifica a manipulação do DOM e a criação de animações, tornando o desenvolvimento mais fácil e rápido.
-  Bootstrap: É uma biblioteca CSS e JavaScript que oferece um conjunto de estilos pré-definidos e componentes reutilizáveis para a criação de layouts responsivos.
-  SCSS: É uma extensão do SASS (Syntactically Awesome Style Sheets), uma linguagem de extensão do CSS (Cascading Style Sheets). SASS e SCSS são pré-processadores CSS que permitem que os desenvolvedores escrevam código CSS de forma mais organizada, modular e eficiente.
+  - jQuery: Uma biblioteca JavaScript que simplifica a manipulação do DOM e a criação de animações, tornando o desenvolvimento mais fácil e rápido.
+  - Bootstrap: É uma biblioteca CSS e JavaScript que oferece um conjunto de estilos pré-definidos e componentes reutilizáveis para a criação de layouts responsivos.
+  - SCSS: É uma extensão do SASS (Syntactically Awesome Style Sheets), uma linguagem de extensão do CSS (Cascading Style Sheets). SASS e SCSS são pré-processadores CSS que permitem que os desenvolvedores escrevam código CSS de forma mais organizada, modular e eficiente.
 - Outras Tecnologias: Trabalho com PHP e SQL também.
 
 ## Como Contatar
