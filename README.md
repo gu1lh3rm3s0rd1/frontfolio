@@ -6,7 +6,7 @@ O grande foco desse Projeto foi o desafio de criar minha primeira aplicação so
 
 ## Projetos de Desenvolvimento
 
-Aqui você encontrará uma lista dos projetos que desenvolvi, cada um com uma breve descrição e link para o código-fonte e/ou demonstração. Sinta-se à vontade para explorar os projetos e entrar em contato comigo se tiver alguma pergunta ou 
+Aqui você encontrará uma lista dos projetos que desenvolvi, cada um com uma breve descrição e link para o código-fonte e/ou demonstração. Sinta-se à vontade para explorar os projetos e entrar em contato comigo se tiver alguma pergunta ou feedback!
 
 ## Projetos
 
