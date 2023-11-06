@@ -356,12 +356,9 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(
-        to right,
-        rgba(0, 185, 129, 0.8),
-        rgba(0, 98, 185, 0.8)
-      )
-      center,
+  background: linear-gradient(to right,
+      rgba(0, 185, 129, 0.8),
+      rgba(0, 98, 185, 0.8)) center,
     url(../../assets/svg/endless-constellation.svg) center;
   height: 100vh;
   min-height: 80rem;
@@ -708,24 +705,21 @@ textarea {
 }
 
 .contact {
-  background: linear-gradient(
-        to right,
-        rgba(0, 185, 129, 0.8),
-        rgba(0, 98, 185, 0.8)
-      )
-      center/cover,
+  background: linear-gradient(to right,
+      rgba(0, 185, 129, 0.8),
+      rgba(0, 98, 185, 0.8)) center/cover,
     url(../../assets/svg/endless-constellation.svg) center/cover;
 }
 
 .contact__form-container {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background: #fff;
-  padding: 4rem;
-  max-width: 80rem;
+  padding: 2rem;
+  max-width: 50rem;
   text-align: right;
   width: 95%;
   border-radius: 5px;
-  margin: 5rem auto 0;
+  margin: 2rem auto 0;
 }
 
 .contact__form-label {
@@ -740,10 +734,10 @@ textarea {
 
 .contact__form-input {
   color: #333;
-  padding: 2rem;
+  padding: 1.25rem;
   width: 100%;
   border: 1px solid #ebebeb;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   letter-spacing: 0;
   background: #f0f0f0;
   border-radius: 5px;
@@ -795,6 +789,7 @@ textarea {
 }
 
 @media only screen and (max-width: 37.5em) {
+
   .header__links,
   .home-hero__mouse-scroll-cont {
     display: none;
@@ -852,7 +847,7 @@ textarea {
   }
 
   .contact__form-field {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   .contact__btn {
