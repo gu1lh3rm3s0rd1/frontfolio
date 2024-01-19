@@ -546,26 +546,14 @@ textarea {
   padding: 1rem 3rem;
 }
 
-.projects__roww {
-  display: grid;
-  grid-template-columns: 1.5fr 1fr;
-  grid-gap: 5rem;
-  margin-bottom: 11rem;
-}
-
 .projects__row:last-child {
   margin-bottom: 0;
 }
 
 .projects__row-img {
-  width: 25%;
+  width: 100%;
   display: block;
-  object-fit: cover;
-}
-
-.projects__row-imgg {
-  width: 95%;
-  display: block;
+  -o-object-fit: cover;
   object-fit: cover;
 }
 
@@ -655,13 +643,6 @@ textarea {
     justify-content: center;
     align-items: center;
     justify-items: center;
-  }
-
-  .projects__roww {
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    margin-bottom: 8rem;
-    text-align: center;
   }
 
   .projects__row-content {
