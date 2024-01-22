@@ -43,7 +43,7 @@ Confira mais dos meus trabalhos acessando meus outros repositórios aqui do GitH
 
 ## Link do Projeto
 
-- Portifolio: [guilhermebenjamin](https://guilhermebenjamin.netlify.app/)
+[guilhermebenjamin](https://guilhermebenjamin.netlify.app/)
 
 ## Como Contatar
 
