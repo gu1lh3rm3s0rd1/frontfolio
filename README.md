@@ -6,25 +6,31 @@ O grande foco desse Projeto foi o desafio de criar minha primeira aplicação so
 
 ## Projetos de Desenvolvimento
 
-Aqui você encontrará uma lista dos projetos que desenvolvi, cada um com uma breve descrição e link para o código-fonte e/ou demonstração. Sinta-se à vontade para explorar os projetos e entrar em contato comigo se tiver alguma pergunta ou feedback!
+Aqui você encontrará alguns dos projetos pessoais que desenvolvi, cada um com uma breve descrição e link para o código-fonte e/ou demonstração. Sinta-se à vontade para explorar os projetos e entrar em contato comigo se tiver alguma pergunta ou feedback!
 
 ## Projetos
 
-### [Spotify Clone](https://github.com/gu1lh3rm3s0rd1/Spotify-Clone)
+### [clickBuy](https://github.com/gu1lh3rm3s0rd1/ClickBUY)
 
-Um projeto web que consiste em um clone da landing page (página inicial) do Spotify. Foi desenvolvido utilizando apenas HTML e CSS para replicar o design e layout da página oficial do Spotify. O projeto apresenta as principais seções da página original. O objetivo do projeto é praticar habilidades de HTML e CSS, aprendendo a criar layouts responsivos e estilizados de forma semelhante ao site real do Spotify.
+Utilizando uma combinação de HTML, CSS e JavaScript, juntamente com a API do Mercado Livre, o clickBuy oferece aos usuários uma experiência de compras online aprimorada, permitindo que eles adquiram produtos com um simples clique.
 
-### [ClickStore](https://github.com/gu1lh3rm3s0rd1/ClickStore)
+#### [Link ao vivo](https://clickbuyweb.netlify.app/)
 
-Neste projeto web, desenvolvi uma página de e-commerce que integra-se com a API do Mercado Livre. Através da combinação de HTML, CSS e JavaScript, a página exibe uma lista de produtos do Mercado Livre, permitindo aos usuários visualizarem detalhes dos itens, como título, preço e imagem. Além disso, a página possui funcionalidades de busca e filtragem para facilitar a navegação e encontrar produtos específicos. Todo o conteúdo é carregado dinamicamente, proporcionando uma experiência de usuário fluida e interativa.
+### [Landing Page Spotify](https://github.com/gu1lh3rm3s0rd1/Spotify-Clone)
 
-### [CarZone](https://github.com/gu1lh3rm3s0rd1/SuperCarros)
+Um projeto web que consiste em um clone da landing page (página inicial) do Spotify usando HTML, CSS.
 
-O projeto é uma página simples desenvolvida com HTML, CSS e JavaScript, que apresenta uma lista de carros com suas descrições e fotos. A página é dinâmica, permitindo que os usuários visualizem informações detalhadas dos carros ao clicar em cada item da lista. Os carros são exibidos de forma atraente, com imagens e informações organizadas, tornando a experiência do usuário agradável e informativa.
+#### [Link ao vivo](https://spotifyduo.netlify.app/)
+
+### [Tasks List](https://github.com/gu1lh3rm3s0rd1/Task-List)
+
+O Agendador de Tarefas é uma aplicação web desenvolvida com JavaScript com uma interface simples e intuitiva, os usuários podem adicionar, editar, excluir e visualizar suas tarefas com facilidade.
+
+#### [Link ao vivo](https://minhagenda.netlify.app/)
 
 ### [Mais Projetos](https://github.com/gu1lh3rm3s0rd1?tab=repositories)
 
-Confira mais dos meus trabalhos acessando o meu repositório do GitHub.
+Confira mais dos meus trabalhos acessando meus outros repositórios aqui do GitHub.
 
 ## Tecnologias Utilizadas
 
