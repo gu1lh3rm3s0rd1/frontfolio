@@ -51,7 +51,7 @@ Se você estiver interessado(a) em colaborar em algum projeto ou apenas quiser b
 
 - E-mail: @gsordi2507@gmail.com / @gsordi123@outlook.com
 - GitHub: [gu1lh3rm3s0rd1](https://github.com/gu1lh3rm3s0rd1)
-- LinkedIn: [guilhermesordi](https://www.linkedin.com/in/guilherme-sordi-33ab06233/)
+- LinkedIn: [guilhermesordi](https://www.linkedin.com/in/guilherme-benjamin-sordi-33ab06233/)
 
 ## Autor
 
@@ -60,3 +60,4 @@ Guilherme Benjamin Sordi - [https://github.com/gu1lh3rm3s0rd1/](https://github.c
 ## Licença
 
 Este projeto é licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
+
