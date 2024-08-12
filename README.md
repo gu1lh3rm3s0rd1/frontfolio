@@ -25,4 +25,4 @@ Se você estiver interessado(a) em colaborar em algum projeto ou apenas quiser b
 
 ## Autor
 
-[Guilherme Benjamin Sordi](https://gu1lh3rm3s0rd1.github.io/guilhermebenjamin.com/).
+[Guilherme Benjamim Sordi](https://gu1lh3rm3s0rd1.github.io/guilhermebenjamin.com/).
