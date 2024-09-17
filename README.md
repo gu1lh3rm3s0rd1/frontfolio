@@ -21,7 +21,7 @@ Sinta-se à vontade para contribuir com pull requests, enviar sugestões e mais.
 Se você estiver interessado(a) em colaborar em algum projeto ou apenas quiser bater um papo, fique à vontade para entrar em contato comigo. Abaixo estão os meus canais de contato:
 
 - E-mail: @gsordi2507@gmail.com / @gsordi123@outlook.com
-- LinkedIn: [guilhermesordi](https://www.linkedin.com/in/guilherme-benjamin-sordi-33ab06233/)
+- LinkedIn: [guilhermesordi](https://www.linkedin.com/in/guilhermebenjamim/)
 
 ## Autor
 
